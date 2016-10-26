@@ -1,0 +1,16 @@
+Compiling...
+prog1_4.c: In function ‘main’:
+prog1_4.c:11:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for(double i = 0; i < x; i++){
+  ^
+prog1_4.c:11:2: note: use option -std=c99 or -std=gnu99 to compile your code
+prog1_4.c:15:13: error: redefinition of ‘i’
+  for(double i = 0; i < x; i++){
+             ^
+prog1_4.c:11:13: note: previous definition of ‘i’ was here
+  for(double i = 0; i < x; i++){
+             ^
+prog1_4.c:15:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for(double i = 0; i < x; i++){
+  ^
+!!!!!!!!!!!!!!! FAILURE to compile

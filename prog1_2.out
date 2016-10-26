@@ -1,0 +1,13 @@
+Compiling...
+prog1_2.c: In function ‘main’:
+prog1_2.c:9:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[256]’ [-Wformat=]
+  scanf("%s",&name);
+  ^
+Success...
+Program Execution: echo 'Scott Lindeneau' | ./prog1_2
+---------------------------
+Assignment #1-2, Taylor Ewertz, t_ewertz@yahoo.com
+Hello! What is your name?
+Hello Scott. Nice to meet you!
+---------------------------
+Success
